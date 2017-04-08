@@ -17,6 +17,10 @@ This can be ran ad-hoc, or on a regularly scheduled interval. When running, make
 this has the ability to encrypt/decrypt kms keys and access the specified bucket.
 
 ```
+docker run -ti adam9098/vault-keeper -r region -b bucket_name -k key_alias
+```
+
+```
 usage: vault_keeper.py [-h] -H HOSTNAME -r REGION -b BUCKET_ALIAS -k KEY_ALIAS
 
 optional arguments:

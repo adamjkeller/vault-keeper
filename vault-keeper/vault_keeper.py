@@ -12,10 +12,7 @@ from helpers.log import SetLogging
 
 class VaultMonitor(object):
 
-    def __init__(self, hostname,
-                 aws_region=None,
-                 key_alias=None,
-                 bucket_alias=None):
+    def __init__(self, hostname, aws_region, key_alias, bucket_alias):
         self.hostname = hostname
         self.aws_region = aws_region
         self.key_alias = key_alias
