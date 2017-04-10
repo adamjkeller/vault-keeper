@@ -8,7 +8,7 @@ Monitors Vault and does the following:
 # Install
 
 ```
-WIP: python setup.py install
+docker pull adam9098/vault-keeper:latest
 ```
 
 # Usage
